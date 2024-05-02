@@ -1,5 +1,7 @@
 const getTheTitles = function (array) {
-  return array.map((book) => book.title);
+  return array.forEach(element => {
+    result.push(element.author);
+  });
 };
 
 module.exports = getTheTitles;
